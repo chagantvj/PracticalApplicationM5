@@ -9,7 +9,12 @@ Dataset information
 *Imagine driving through town and a coupon is delivered to your cell phone for a restaurant near where you are driving. Would you accept that coupon and take a short detour to the restaurant? Would you accept the coupon but use it on a subsequent trip? Would you ignore the coupon entirely? What if the coupon was for a bar instead of a restaurant? What about a coffee house? Would you accept a bar coupon with a minor passenger in the car? What about if it was just you and your partner in the car? Would weather impact the rate of acceptance? What about the time of day?*
 
 *Given dataset has 12684 entries with 26 columns*
+
 *Data Source: https://github.com/chagantvj/PracticalApplicationM5/blob/main/coupons.csv*
+
+*Python Code: https://github.com/chagantvj/PracticalApplicationM5/blob/main/VijayChaganti_Module5_Practical_Example1.ipynb*
+
+*Note: There are no errors in the code, but FutureWarning due to usage of replace=inplace option.*
 
 **Date Understanding and Cleaning**
 ---
@@ -132,6 +137,11 @@ data['Restaurant20To50'].fillna(data['Restaurant20To50'].mode()[0], inplace=True
 
 ![image](https://github.com/user-attachments/assets/4eca5fde-21a6-430d-bbca-3042f4b2cfed)
 
+*Acceptance ration by Category1 drivers who goes to bar more than once with no passenger kids and are not widow is higher compared to category3 followed by category1*
+
+*Category3 who are less income drivers compared to category1 and category3 acceptance ration is less which is the obvious that they may not willingto  spend on Bar and other recreations*
 
 <br/>
 <br/>
+
+
